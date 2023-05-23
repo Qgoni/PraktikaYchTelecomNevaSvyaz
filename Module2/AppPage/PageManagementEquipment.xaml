@@ -1,0 +1,16 @@
+﻿<Page x:Class="Module2.AppPage.PageManagementEquipment"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Module2.AppPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageManagementEquipment">
+
+    <Grid>
+        <DataGrid x:Name="DataGridManagment"  Margin="10,53,10,10" />
+        <Label Content="Управление оборудованием" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+
+    </Grid>
+</Page>

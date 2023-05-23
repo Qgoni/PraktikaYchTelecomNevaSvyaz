@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelecomТeoSvyaz", "TelecomТeoSvyaz\TelecomТeoSvyaz.csproj", "{1763F946-D52B-449B-AF99-1CEBBC96438D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module2", "Module2\Module2.csproj", "{D45DCEFC-229C-468D-A362-05E8E25A4EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1763F946-D52B-449B-AF99-1CEBBC96438D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1763F946-D52B-449B-AF99-1CEBBC96438D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1763F946-D52B-449B-AF99-1CEBBC96438D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1763F946-D52B-449B-AF99-1CEBBC96438D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45DCEFC-229C-468D-A362-05E8E25A4EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45DCEFC-229C-468D-A362-05E8E25A4EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45DCEFC-229C-468D-A362-05E8E25A4EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45DCEFC-229C-468D-A362-05E8E25A4EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA85A37B-1E70-43C3-8C33-B2CA42157A35}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+﻿<Page x:Class="Module2.AppPage.PageBilling"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Module2.AppPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageBilling">
+    <Viewbox>
+        <Grid x:Name="Papo">
+
+
+            <StackPanel Margin="10,10,10,0" Height="444" VerticalAlignment="Top">
+                <Image Source="/img/Снимок экрана 2023-05-22 211100.png" Margin="74,0,40,0" Height="152" Width="715" />
+                <TextBlock Text="Услуга" Width="582" Height="19" />
+                <ComboBox x:Name="serviceComboBox" Width="588" Height="26" />
+
+                <TextBlock Text="Название тарифа" Width="584" Height="19" />
+                <ComboBox x:Name="tariffComboBox" Width="588" Height="27" />
+
+                <TextBlock Text="Условия" Width="584" Height="19" />
+                <ComboBox x:Name="conditionsComboBox" Width="584" Height="27" />
+
+                <TextBlock Text="Стоимость, руб/мес" Width="582" Height="19" />
+                <ComboBox x:Name="priceComboBox" Width="584" Height="27" />
+
+            </StackPanel>
+            <Button Content="ПЕЧАТЬ" Click="PrintButton_Click" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,430,0,0" Width="63"/>
+
+        </Grid>
+    </Viewbox>
+   
+</Page>
